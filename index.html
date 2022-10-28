@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.png">
+    <!-- link css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div class="loading-screen bg-black">
+		<i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+	</div>
+
+    <section class="first-section w-25">
+        <div class="strip-side-nav closed">
+            <div class="side-logo">
+                <img src="./assets/images/logo.png" alt="logo">
+            </div>
+            <div class="side-toggle-menu">
+                <i class="fa fa-align-justify pointer"></i>
+            </div>
+            <div class="side-social-icon">
+                <div class="strip-lang">
+                    <span>
+                        <i class="fa-solid fa-globe pointer"></i>
+                    </span>
+                </div>
+                <div class="strip-share">
+                    <span>
+                        <i class="fa-solid fa-share-alt pointer"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-menu closed">
+            <div class="side-items">
+                <ul>
+                    <li class="item1 pointer"><a data-list="search" class="nav-category text-white">Search</a></li>
+                    <li class="item1 pointer"><a data-list="categories" class="nav-category text-white">Categories</a></li>
+                    <li class="item2 pointer"><a data-list="a" class="nav-category text-white">Area</a></li>
+                    <li class="item3 pointer"><a data-list="i" class="nav-category text-white">Ingredients</a></li>
+                    <li class="item6 pointer"><a data-list="contact" class="nav-category text-white">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="side-social">
+                <a><i class="fa-brands fa-facebook-f pointer"></i></a>
+                <a><i class="fa-brands fa-twitter pointer"></i></a>
+                <a><i class="fas fa-globe pointer"></i></a>
+                <div class="p-3">
+                    <span>Copyright © 2019 All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 mx-5">
+        <div id="search-container" class="container w-75 xyz m-auto">
+
+		</div>
+        <section class="container w-75 text-center my-1 py-2 mt-5 position-relative">
+            <div class="loading-container">
+                <div class="sm-loading position-absolute ">
+                    <i class="fa fa-spinner fa-spin fa-4x"></i>
+                </div>
+            </div>
+            <div class="row mt-3 p-2 m-auto" id="data" style="width: 86.5%;">
+                
+			</div>
+        </section>
+    </section>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
